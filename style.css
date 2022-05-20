@@ -6,6 +6,7 @@ body{
 }
 h1{
     text-align: center;
+    font-size: 40px;
 }
 p{
     font-size: 20px;
@@ -16,16 +17,13 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color: lightblue;
     padding: 50px;
+    width: 70%;
+    margin-left: 100px;
     
-
-}
-.caja{
     
-    background-color: lightgrey;
-    line-height: 80px;
-
+    
+    
 
 }
 .c1{
@@ -83,60 +81,78 @@ p{
 
 }
 .texto{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto;
-    text-align: center;
-    font-size: 25px;
+    display:flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: auto;
+    gap: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 .t1{
     color: black;
+    font-size: 40px;
 
 }
 .t2{
     color: teal ;
+    font-size: 40px;
 }
 .t3{
     color: blue;
+    font-size: 40px;
 
 }
 .t4{
     color: navy;
+    font-size: 40px;
 
 }
 .t5{
     color: lime;
+    font-size: 40px;
 }
 .t6{
     color: white;
+    font-size: 40px;
 }
 .t7{
     color: purple;
+    font-size: 40px;
 }
 .t8{
     color: yellow;
+    font-size: 40px;
+
 }
 .t9{
     color: olive;
+    font-size: 40px;
 }
 .t10{
     color:maroon;
+    font-size: 40px;
 }
 .t11{
 color: gray;
+font-size: 40px;
 }
 .t12{
     color:fuchsia;
+    font-size: 40px;
 }
 .t13{
     color:green ;
+    font-size: 40px;
 }
 .t14{
     color: aqua;
+    font-size: 40px;
 }
 .t15{
     color: silver;
+    font-size: 40px;
 }
 
 
